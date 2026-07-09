@@ -1,0 +1,24 @@
+*.jpg
+*.jpeg
+
+# Исполняемые файлы
+*.exe
+*.out
+*.app
+
+# Объектные файлы и библиотеки
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Папки сборки (для CMake, Visual Studio и других)
+build/
+Build/
+bin/
+obj/
+.vs/
+CMakeFiles/
