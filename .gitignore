@@ -1,5 +1,7 @@
 *.jpg
 *.jpeg
+.DS_Store
+.ds_store
 
 # Исполняемые файлы
 *.exe
