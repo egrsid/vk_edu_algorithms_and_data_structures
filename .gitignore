@@ -3,24 +3,31 @@
 .DS_Store
 .ds_store
 
-# Исполняемые файлы
+# === Объектные файлы ===
+*.o
+*.obj
+*.gch
+*.pch
+
+# === Библиотеки (статические и динамические) ===
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# === Исполняемые файлы ===
 *.exe
 *.out
 *.app
 
-# Объектные файлы и библиотеки
-*.o
-*.obj
-*.a
-*.lib
-*.so
-*.dylib
-*.dll
-
-# Папки сборки (для CMake, Visual Studio и других)
+# === Папки сборки (зависит от вашей IDE / системы сборки) ===
 build/
-Build/
 bin/
-obj/
+out/
+x64/
+Debug/
+Release/
 .vs/
-CMakeFiles/
+cmake-build-debug/
+cmake-build-release/
