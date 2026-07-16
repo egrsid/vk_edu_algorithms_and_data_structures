@@ -23,7 +23,7 @@ int find_root(const int num) {
 
 int main() {
     int a = 144;
-    int b = 14;
+    int b = 10;
 
     std::cout << find_root(a) << std::endl << find_root(b);
 }
