@@ -82,5 +82,5 @@ int rightBinarySearch(const std::vector<int>& data, const int target) {
 
 int main() {
     std::vector<int> a{1, 2, 3, 4, 5};
-    std::cout << binarySearchRecursion(a, 0, a.size() - 1, 1);
+    std::cout << binarySearchRecursion(a, 0, a.size() - 1, 3);
 }
