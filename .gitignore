@@ -4,9 +4,12 @@
 .ds_store
 .vscode/
 
+cource_task_images/
+
 # === Объектные файлы ===
 *.o
 *.obj
+bin.dbg
 *.gch
 *.pch
 
@@ -23,13 +26,9 @@
 *.app
 
 # === Папки сборки (зависит от вашей IDE / системы сборки) ===
+# Скомпилированные бинарники и папки сборки
+bin.dbg/
+bin.rel/
+bin.relwithdbg/
 build/
-bin/
-out/
-x64/
-Debug/
-Release/
-.vs/
-cmake-build-debug/
-cmake-build-release/*.o
-*.obj
+.cache/
