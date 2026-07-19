@@ -30,7 +30,7 @@ void insertSortWithoutSwap(std::vector<int>& vect) {
 
 int main() {
     std::vector<int> a = {5, 4, 2, 2, 13};
-    insertSortWithoutSwap(a);
+    insertSort(a);
     for (int i = 0; i < a.size(); ++i) {
         std::cout << a[i] << std::endl;
     }

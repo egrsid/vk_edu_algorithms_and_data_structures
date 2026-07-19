@@ -2,7 +2,7 @@
 #include <vector>
 #include <algorithm>
 
-void chooseSort(std::vector<int>& vect) {
+void choiceSort(std::vector<int>& vect) {
     for (int i=0; i < vect.size()-1; ++i) {
         int mnIdx = i;
         for (int j=i+1; j < vect.size(); ++j) {
@@ -17,7 +17,7 @@ void chooseSort(std::vector<int>& vect) {
 
 int main() {
     std::vector<int> a = {5, 4, 2, 2, 13};
-    chooseSort(a);
+    choiceSort(a);
     for (int i = 0; i < a.size(); ++i) {
         std::cout << a[i] << std::endl;
     }

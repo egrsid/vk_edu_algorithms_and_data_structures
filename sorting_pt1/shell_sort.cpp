@@ -35,7 +35,7 @@ void shellSortWithoutSwap(std::vector<int>& vect) {
 
 int main() {
     std::vector<int> a = {5, 4, 2, 2, 13};
-    shellSortWithoutSwap(a);
+    shellSort(a);
     for (int i = 0; i < a.size(); ++i) {
         std::cout << a[i] << std::endl;
     }

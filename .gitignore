@@ -2,6 +2,7 @@
 *.jpeg
 .DS_Store
 .ds_store
+.vscode/
 
 # === Объектные файлы ===
 *.o
@@ -30,4 +31,5 @@ Debug/
 Release/
 .vs/
 cmake-build-debug/
-cmake-build-release/
+cmake-build-release/*.o
+*.obj
