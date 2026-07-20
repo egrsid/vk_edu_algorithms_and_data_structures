@@ -1,6 +1,6 @@
 set(CMAKE_MAKE_PROGRAM 20)
 
-file(GLOB SOURCE_FILES "*.cpp")
+file(GLOB SOURCE_FILES CONFIGURE_DEPENDS "*.cpp")
 
 foreach(source_file ${SOURCE_FILES})
     get_filename_component(exec_name ${source_file} NAME_WE)
